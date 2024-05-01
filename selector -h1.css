@@ -1,0 +1,113 @@
+selector -h1
+
+h1{
+    color:red;
+    property:value
+}
+
+
+Including style
+
+a)Inline
+<h1 style="color:red"></h1>
+
+b)<style>tag
+<style>
+h1{
+    color:red;
+}
+</style>
+
+c)External stylesheet
+Writing CSS in a seperate document & linking it with HTML file.
+
+In inside head
+<link rel="stylesheet" href="style.css">
+
+priority order-Inline,style tag,external stylesheet
+
+Color Property :-
+Used to set the color of foreground
+color:red;
+
+Background Color Property :-
+Used to set the color of background
+background-color:pink;
+
+Selectors
+a)Universal Selector
+*{}
+b) Element Selector
+h1{}
+c)Id Selector  -->unique name
+#myId{}
+d)Class Selector
+.myClass{}
+
+Text Properties
+a)text-align :-
+text-align:left(start)/right(end)/center
+
+b)text-decoration :-
+text-decoration : underline/overline/line-through
+
+c)font-weight :-
+font-weight:normal/bold/bolder/lighter
+font-weight:100-900
+
+d)font-family :-
+font-family:arial,roboto
+
+Units in CSS
+Absolute
+
+Pixels(px)
+
+96px=1 inch
+font-size:2px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

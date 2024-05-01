@@ -1,0 +1,38 @@
+/* h1{
+ background-color: red;   
+}
+p{
+    color: pink;
+} */
+/* *{
+    color: blue;
+} */
+
+
+
+.heading1{
+    /* font-weight: normal;
+    font-family: arial; */
+    font-size:1px;
+}
+.heading2{
+    /* font-weight: bold;
+    font-family: roboto; */
+    font-size:2px;
+}
+.heading3{
+    /* font-weight: bolder; */
+    font-size:3px;
+}
+div{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block
+}
+#box1{
+    position:sticky;
+    top:0;
+    /* left:20px; */
+}
